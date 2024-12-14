@@ -13,6 +13,6 @@ fun part1(lines: List<String>): Int {
     return XmasMap(lines[0].length, lines.size, lines).check()
 }
 
-fun part2(lines: List<String>): Long {
-    return 34
+fun part2(lines: List<String>): Int {
+    return CrossedXmasMap(lines[0].length, lines.size, lines).check()
 }
