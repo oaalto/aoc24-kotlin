@@ -1,10 +1,10 @@
 package day02
 
 import println
-import readInput
+import readLines
 
 fun main() {
-    val lines = readInput("day02/day02")
+    val lines = readLines("day02/day02")
     part1(lines).println()
     part2(lines).println()
 }

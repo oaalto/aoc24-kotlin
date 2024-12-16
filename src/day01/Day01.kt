@@ -1,11 +1,11 @@
 package day01
 
 import println
-import readInput
+import readLines
 import kotlin.math.abs
 
 fun main() {
-    val input = readInput("day01/day01")
+    val input = readLines("day01/day01")
     part1(input).println()
     part2(input).println()
 }
