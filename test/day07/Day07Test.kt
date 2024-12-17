@@ -8,12 +8,12 @@ class Day07Test {
     @Test
     fun testPart1() {
         val input = readLines("day07/day07_test")
-        assertEquals(3749, part1(input))
+        assertEquals(3749, runner(input))
     }
 
-    /*@Test
+    @Test
     fun testPart2() {
         val input = readLines("day07/day07_test")
-        assertEquals(123, part2(input))
-    }*/
+        assertEquals(11387, runner(input))
+    }
 }
